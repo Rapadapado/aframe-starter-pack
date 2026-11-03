@@ -6,13 +6,27 @@
   </head>
   <body>
     <a-scene>
-      <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
-      <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
-      <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
-      <a-plane position="0 0.1 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+      <!--Body-->
+      <a-sphere position="0 .75 -5" radius="1.25" color="white"></a-sphere>
+      <a-sphere position="0 2 -5" radius=".9" color="white"></a-sphere>
+      <a-sphere position="0 2 -4.1" radius=".09" color="black"></a-sphere>
+      <a-sphere position="0 2.3 -4.15" radius=".09" color="black"></a-sphere>
+      <a-sphere position="0 2.57 -4.27" radius=".09" color="black"></a-sphere>
+      <a-sphere position="0 3.2 -5" radius=".65" color="white"></a-sphere>
+      <a-sphere position="-.25 3.25 -4.45" radius=".09" color="black"></a-sphere>
+      <a-sphere position=".25 3.25 -4.45" radius=".09" color="black"></a-sphere>
+
+      <a-cone position="0 3.05 -4.25" rotation="90 0 0" color="orange" radius-bottom=".19" radius-top="0" height="1.25"></a-cone>
+      
+      <!--Arms-->
+      <a-cylinder position="1, 2.5, -5" color="#A52A2A" height="2" radius=".1" rotation="50 90 0"></a-cylinder>
+      <a-cylinder position="1.35, 3, -5" color="#A52A2A" height=".5" radius=".05" rotation="-30 90 0"></a-cylinder>
+      <a-cylinder position="-1, 2.5, -5" color="#A52A2A" height="2" radius=".1" rotation="50 -90 0"></a-cylinder>
+      <a-cylinder position="-1.35, 3, -5" color="#A52A2A" height=".5" radius=".05" rotation="-30 -90 0"></a-cylinder>
+      
       <!-- <a-sky color="#ECECEC"></a-sky> -->
       <!-- the enviroment entity includes a sky. Choose from the presets"none, default, contact, egypt, checkerboard, forest, goaland, yavapai, goldmine, threetowers, poison, arches, tron, japan, dream, volcano, starry, osiris, moon" -->
-      <a-entity environment="preset: forest; dressingAmount: 500"></a-entity>
+      <a-entity environment="preset: moon; dressingAmount: 500"></a-entity>
     </a-scene>
   </body>
 </html>
