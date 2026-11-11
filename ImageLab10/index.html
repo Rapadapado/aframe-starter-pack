@@ -8,13 +8,29 @@
 
     <a-assests>
       <img id="background" src="Assests/AdobeStock_1239866718 copy.jpg">
+      <img id="IceCream" src="Assests/AdobeStock_208955943.jpeg">
+      <img id="Cone" src="Assests/AdobeStock_2039243511.jpeg">
+      <img id="Sand" src="Assests/AdobeStock_412924544.jpeg">
     </a-assests>
+      
+    <!--Castle-->
+    <a-box src="#Sand" position="15 -5 -31" rotation="0 90 0" width="2.5" depth="3" height="3.5" width="2"></a-box>
+    <a-box src="#Sand" position="15 -5.75 -28" rotation="90 0 0" depth="2" height="7" width="2"></a-box>
+    <a-box src="#Sand" position="15 -5 -24" rotation="0 90 0" width="2.5" depth="3" height="3.5" width="2"></a-box>
+    <a-box src="#Sand" position="19 -5.75 -24" rotation="0 0 90" depth="2" height="8" width="2"></a-box>
+    <a-box src="#Sand" position="23 -5 -24" rotation="0 90 0" width="2.5" depth="3" height="3.5" width="2"></a-box>
+    <a-box src="#Sand" position="19 -5.75 -31" rotation="0 0 90" depth="2" height="8" width="2"></a-box>
+    <a-box src="#Sand" position="23 -5 -31" rotation="0 90 0" width="2.5" depth="3" height="3.5" width="2"></a-box>
+    <a-box src="#Sand" position="23 -5.75 -28" rotation="90 0 0" depth="2" height="7" width="2"></a-box>
+    
 
-      <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
-      <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
-      <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
-      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+    <!--Cone-->
+      <a-sphere src="#IceCream" position="-3 1 -10" radius="1.4"></a-sphere>
+      <a-cone src="#Cone" position="-3 -1 -10" radius-bottom="1" radius-top=".01" height="2" rotation="180 0 0"></a-cone>
+      
+      <!--Background-->
       <a-sky src="#background" radius="50"></a-sky>
+    
     </a-scene>
   </body>
 </html>
