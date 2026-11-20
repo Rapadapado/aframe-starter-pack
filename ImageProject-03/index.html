@@ -9,7 +9,9 @@
       <a-assest>
         <img id="background" src="Assets/Sky.jpeg">
         <img id="ground" src="Assets/Grass.jpeg">
-        <img id="bark" src="Assets/AdobeStock_201320534.jpeg">
+        <img id="bark" src="Assets/Bark.jpeg">
+        <a-assest-item id="Log" src="Assets/enchanted_log/Log.gltf"></a-assest-item>
+        <a-assest-item id="Flower" src="Assets/Flower.obj"></a-assest-item>
       </a-assest>
 
       <!--Background/Ground-->
@@ -28,7 +30,17 @@
       <a-cylinder src="#bark" height="10" radius="1" position="42 56 -51" rotation="45 0 0"></a-cylinder>
       <a-cylinder src="#bark" height="10" radius="1" position="42 55 -58" rotation="-45 0 0"></a-cylinder>
       <!--a-torus-knot position="20 35 -50" radius-tubular="3"></a-torus-knot>
-      
+
+    -->
+      <!--Left Branch-->
+
+      <!--Flowers-->
+      <a-obj-model src="#Flower" scale=".1 .1 .1" position="10 1 -30" rotation="0 200 0"></a-obj-model>
+      <a-obj-model src="#Flower" scale=".1 .1 .1" position="-10 1 -30" rotation="0 -90 0"></a-obj-model>
+
+      <!--Log-->
+      <a-entity gltf-model="#Log" position="10 10 10" scale="1 1 1"></a-entity>
+
     </a-scene>
   </body>
 </html>
